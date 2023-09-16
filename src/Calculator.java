@@ -27,7 +27,7 @@ public class Calculator implements ActionListener{
 
 
         textfield = new JTextField();
-        textfield.setBounds(50, 25, 300, 50);
+        textfield.setBounds(50, 25, 200, 50);
         textfield.setFont(myFont);
         textfield.setEditable(false);
 
@@ -64,9 +64,9 @@ public class Calculator implements ActionListener{
             numberButtons[i].setFocusable(false);
         }
 
-        negButton.setBounds(50,430,100,50);
-        delButton.setBounds(150,430,100,50);
-        clrButton.setBounds(255,430,100,50);
+        negButton.setBounds(250,26,100,50);
+        delButton.setBounds(50,430,150,50);
+        clrButton.setBounds(205,430,150,50);
 
 
         panel = new JPanel();
